@@ -5,15 +5,20 @@
   "main": "gulpfile.js",
   "dependencies": {
     "browser-sync": "^2.26.7",
+    "gsap": "^3.2.6",
     "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
     "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
     "gulp-file-include": "^2.2.2",
     "gulp-sass": "^4.1.0",
     "jquery": "^3.5.1",
-    "node-sass": "^4.14.1"
+    "node-sass": "^4.14.1",
+    "vinyl-ftp": "^0.6.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-connect-php": "^1.0.3",
+    "gulp-imagemin": "^7.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
