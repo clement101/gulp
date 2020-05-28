@@ -1,0 +1,28 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#sliderBoard{   /*div*/
+	width: 300px;
+
+	margin: 100px auto;
+	overflow: hidden;
+}
+#sliderBoard ul{   /*ul*/
+	width: 1500px;
+
+	position: relative;
+	animation: slide 3s 3;
+}
+#sliderBoard li{   /*li*/
+	width: 300px;
+	height: 300px;
+
+	font: bold 120px Tahoma;
+	text-align: center;
+	line-height: 300px;
+
+	/* display: inline-block; */
+	float: left;
+}
